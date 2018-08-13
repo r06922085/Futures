@@ -1,2 +1,2 @@
-# my_first_github_project
+# My first github project
 it is my first step in github!
