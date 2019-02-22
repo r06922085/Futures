@@ -28,3 +28,6 @@ To to analyze the data:
 
 To analyze the data with my main policy:
 --python main.py --look
+
+## Author
+-Liocean: https://github.com/r06922085
