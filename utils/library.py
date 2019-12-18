@@ -19,7 +19,7 @@ class utils():
         so we set the day to the yesterday
         '''
         today_hour = datetime.datetime.now().timetuple().tm_hour
-        
+
         if today_hour < 16:
             today = str(date_time.today() - datetime.timedelta(1))
         else:
@@ -35,4 +35,3 @@ class utils():
         for i in date:
             if i == '-':
                 date_new += '/'
-            e
