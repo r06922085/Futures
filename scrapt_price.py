@@ -78,13 +78,13 @@ class scrapt_price(object):
 
     def get_payload_price(sel, dd, mm, yy, date):
         payload_price = {
-            'queryType': '3',
-            'marketCode': '0',
-            'dateaddcnt': '1',
+            'queryType': '2',
+            'marketCode': '1',
+            'dateaddcnt': '',
             'commodity_id': 'TX',
             'commodity_id2': '',
             'queryDate': date,
-            'MarketCode': '0',
+            'MarketCode': '1',
             'commodity_idt': 'TX',
             'commodity_id2t': '',
             'commodity_id2t2': ''
