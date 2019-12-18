@@ -22,7 +22,7 @@ class scrapt_legal():
         today = self.util.get_today()
 
         while True:
-            if require_day == today:
+            if require_day > today:
                 break
             print(require_day)
             payload = self.get_payload(require_day)
